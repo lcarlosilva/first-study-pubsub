@@ -101,6 +101,7 @@ local.properties
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+.idea/*
 
 # Generated files
 .idea/**/contentModel.xml
@@ -231,6 +232,7 @@ buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
 .flattened-pom.xml
+.mvn
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -257,3 +259,27 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+### Sonar ###
+#Sonar generated dir
+/.sonar/
+
+### SonarQube ###
+# SonarQube ignore files.
+#
+# https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner
+# Sonar Scanner working directories
+.sonar/
+.scannerwork/
+
+# http://www.sonarlint.org/commandline/
+# SonarLint working directories, configuration files (including credentials)
+.sonarlint/
+
+### Intellij+iml Patch ###
+# Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-249601023
+
+*.iml
+modules.xml
+.idea/misc.xml
+*.ipr
